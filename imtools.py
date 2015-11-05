@@ -1,4 +1,5 @@
 import os
+from PIL import Image
 from numpy import *
 def get_imlist(path):
   return [os.path.join(path, f) for f in os.listdir(path) if f.endwith('.jpg')]
